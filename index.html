@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Portfolio</title>
+    <meta name="description" content="Создам сайт с нуля под ключ.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Main section -->
+    <section id="home" class="main-section">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="container main-section__nav-container">
+            <nav class="main-section__nav nav-menu">
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__list-item"><a href="#home">Home</a></li>
+                    <li class="nav-menu__list-item"><a href="#about-me">About me</a></li>
+                    <li class="nav-menu__list-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-menu__list-item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav-menu__list-item"><a href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
+            <hr class="main-section__hr">
+            <div class="container main-section__content-container">
+                <div class="main-section__text text">
+                    <p class="text__name">Name <br>Surname</p>
+                    <p class="text__profession">Web-Developer<br>19 years old, Perm</p>
+                    <img src="icons/lang.svg" alt="lang" class="text__img">
+                </div>
+                <div class="main-section__img-block">
+                    <img src="img/desktop-img.png" class="main-section__photo" width="100%">
+                    <img src="img/mobile-img.png" class="main-section__mobile-photo">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Second-section -->
+    <section id="about-me" class="second-section">
+        <div class="container second-section__container">
+            <!-- Title -->
+            <h1 class="second-section__title title">About me</h1>
+            <p class="second-section__text">Hi! I'm Name - Web Developer from Perm<br>I'm interested in programming and everything connected with it.<br><br><br><br>I'm studing at courses "Верстка и веб разработка сайтов 2022 - с нуля! <br>Web development" by Dmitry Fokeev.<br><br><br><br>Ready to implement excellent projects <br>with wonderful people.</p>
+        </div>
+    </section>
+    <!-- Third section -->
+    <section id="skills" class="third-section">
+        <div class="container third-section__container">
+            <div class="third-section__title-block">
+                <!-- Title -->
+                <h2 class="third-section__title title">Skills</h2>
+                <p class="third-section__subtitle">I work in such programs as</p>
+            </div>
+            <!-- Cards box -->
+            <div class="third-section__cards-box">
+                <!-- Cards item 1 -->
+                <div class="third-section__cards-item cards-item">
+                    <img src="icons/psd.svg" alt="photoshop" class="cards-item__img">
+                    <p class="cards-item__text">Adobe <br>Photoshop</p>
+                    <img src="icons/star-psd.svg" alt="star-psd" class="cards-item__star-img">
+                </div>
+                <!-- Cards item 2 -->
+                <div class="third-section__cards-item cards-item">
+                    <img src="icons/illustrator.svg" alt="illustrator" class="cards-item__img">
+                    <p class="cards-item__text">Adobe <br>Illustrator</p>
+                    <img src="icons/illustrator-star.svg" alt="star-illustrator" class="cards-item__star-img">
+                </div>
+                <!-- Cards item 3 -->
+                <div class="third-section__cards-item cards-item">
+                    <img src="icons/effects.svg" alt="effects" class="cards-item__img">
+                    <p class="cards-item__text">Adobe <br>After Effects</p>
+                    <img src="icons/effects-star.svg" alt="star-effects" class="cards-item__star-img">
+                </div>
+                <!-- Cards item 4 -->
+                <div class="third-section__cards-item cards-item">
+                    <img src="icons/figma.svg" alt="figma" class="cards-item__img">
+                    <p class="cards-item__text">Figma</p>
+                    <img src="icons/figma-star.svg" alt="figma" class="cards-item__star-figma">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fourth section -->
+    <section id="portfolio" class="fourth-section">
+        <div class="container fourth-section__container">
+            <!-- Title -->
+            <h3 class="fourth-section__title title">Portfolio</h3>
+            <!-- Portfolio Box -->
+            <div class="fourth-section__portfolio-box">
+                <!-- Portfolio Item 1 -->
+                <div class="fourth-section__portfolio-item portfolio-item">
+                    <img src="img/portfolio-1.png" alt="portfolio-1" width="100%" class="portfolio-item__img">
+                    <p class="portfolio-item__text">Online fashion store - Homepage</p>
+                </div>
+                <!-- Portfolio Item 2 -->
+                <div class="fourth-section__portfolio-item portfolio-item">
+                    <img src="img/portfolio-2.png" alt="portfolio-2" width="100%" class="portfolio-item__img">
+                    <p class="portfolio-item__text">Reebok Store - Concept</p>
+                </div>
+                <!-- Portfolio Item 3 -->
+                <div class="fourth-section__portfolio-item portfolio-item">
+                    <img src="img/portfolio-3.png" alt="portfolio-3" width="100%" class="portfolio-item__img">
+                    <p class="portfolio-item__text">Braun Landing Page - Concept</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="footer">
+        <div class="container footer__container">
+            <!-- Title -->
+            <h4 class="footer__title title">Contacts</h4>
+            <p class="footer__subtitle">Want to know more or just chat?<br> 
+                You are welcome!</p>
+            <button class="footer__button">Send message</button>
+            <!-- Icons Box -->
+            <div class="footer__icons-box">
+                <!-- Icons Item -->
+                <div class="footer__icons-item icons-item">
+                    <img src="icons/in.svg" alt="in" class="icons-item__icon">
+                </div>
+                <!-- Icons Item -->
+                <div class="footer__icons-item icons-item">
+                    <img src="icons/insta.svg" alt="insta" class="icons-item__icon">
+                </div>
+                <!-- Icons Item -->
+                <div class="footer__icons-item icons-item">
+                    <img src="icons/be.svg" alt="be" class="icons-item__icon">
+                </div>
+                <!-- Icons Item -->
+                <div class="footer__icons-item icons-item">
+                    <img src="icons/dribble.svg" alt="dribble" class="icons-item__icon">
+                </div>
+            </div>
+            <p class="footer__last-text">Like me on<br>
+                LinkedIn, Instagram, Behance, Dribble</p>
+        </div>
+    </footer>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
