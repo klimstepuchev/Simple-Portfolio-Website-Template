@@ -3,7 +3,7 @@
 <h1 align="center">Simple Portfolio Website Template</h1>
 
 # Info
-This is my first [layout](https://klimstepuchev.github.io/template-portfolio-site/). Implemented for PC and phones.
+This is my first [layout](https://klimstepuchev.github.io/Simple-Portfolio-Website-Template/). Implemented for PC and phones.
 
 # Description
 * Smooth Scroll
